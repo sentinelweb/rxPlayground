@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                tools:context="uk.co.sentinelweb.rxandroidapp.ItemDetailFragment"
+>
+    <EditText android:id="@+id/item_content_edit"
+              style="?android:attr/textAppearanceLarge"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    />
+    <TextView android:id="@+id/item_detail"
+              style="?android:attr/textAppearanceLarge"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/item_content_edit"
+              android:textIsSelectable="true"/>
+
+    <EditText android:id="@+id/item_detail_edit"
+              style="?android:attr/textAppearanceLarge"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/item_detail"
+    />
+</RelativeLayout>
