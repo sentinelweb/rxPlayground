@@ -1,7 +1,7 @@
 # rxPlayground
 A place to gather Rx Exapmples
 
-- needs to commit the root folder project files berfore usage
+TODO: needs to commit the root folder project files before usage
 
 Some links:
 -Beginners guide to subjects:
